@@ -47,7 +47,7 @@ volumes:
   elastic_data: {}
 
 networks:
-  elk_network:
+  elk:
     driver: bridge
     ipam:
       config:
